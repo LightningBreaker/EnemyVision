@@ -53,13 +53,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\IndieMarc\EnemyVision\Scripts\Enemy.cs" />
-     <Compile Include="Assets\IndieMarc\EnemyVision\Scripts\EnemyFollow.cs" />
-     <Compile Include="Assets\IndieMarc\EnemyVision\Scripts\EnemyLOS.cs" />
-     <Compile Include="Assets\IndieMarc\EnemyVision\Scripts\EnemyPatrol.cs" />
-     <Compile Include="Assets\IndieMarc\EnemyVision\Scripts\EnemyVision.cs" />
-     <Compile Include="Assets\IndieMarc\EnemyVision\Scripts\Invisible.cs" />
-     <Compile Include="Assets\IndieMarc\EnemyVision\Scripts\VisionTarget.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\CharacterControls.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\CharacterControls2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\EnemyDemo.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\EnemyDemo2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\SpawnFX.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\Enemy.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\Enemy2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyFollow.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyFollow2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyLOS.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyLOS2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyPatrol.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyPatrol2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyVision.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyVision2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\Invisible.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\VisionTarget.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/CSUFTitan/Documents/tutorials/AI_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

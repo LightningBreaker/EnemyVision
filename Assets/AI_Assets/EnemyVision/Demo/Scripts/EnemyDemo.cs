@@ -27,7 +27,6 @@ namespace MyAI_Game.StealthLOS
         {
             //animation
             animator.SetBool("Move", enemy.GetEnemy().GetMove().magnitude > 0.5f || enemy.GetEnemy().GetRotation() > 10f);
-            //animator.SetBool("Run", is_running);
         }
 
         private void OnSeen(VisionTarget target)

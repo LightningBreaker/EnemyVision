@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/EnemyVision/Demo/Scenes/Stealth3D.unity
+- path: Assets/AI_Assets/EnemyVision/Demo/Scenes/Stealth3D.unity
   isLoaded: 1
   isActive: 1

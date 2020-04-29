@@ -22,13 +22,13 @@ namespace MyAI_Game.StealthLOS
         void FixedUpdate()
         {
             Vector3 move_dir = Vector3.zero;
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
                 move_dir += Vector3.forward;
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
                 move_dir += Vector3.left;
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
                 move_dir += Vector3.right;
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
                 move_dir += Vector3.back;
 
             move_dir = move_dir.normalized * Mathf.Min(move_dir.magnitude, 1f);

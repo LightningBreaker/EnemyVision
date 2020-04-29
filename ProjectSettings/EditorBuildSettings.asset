@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AI_Assets/EnemyVision/Demo/Scenes/Stealth3D.unity
+    guid: 2c9aad79ea04d85409b2977eddea20b7
   m_configObjects: {}

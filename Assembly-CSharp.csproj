@@ -55,21 +55,17 @@
   <ItemGroup>
      <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\CharacterControls.cs" />
-     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\CharacterControls2D.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\EnemyDemo.cs" />
-     <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\EnemyDemo2D.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Demo\Scripts\SpawnFX.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\GameManager.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\Enemy.cs" />
-     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\Enemy2D.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyFollow.cs" />
-     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyFollow2D.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyLOS.cs" />
-     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyLOS2D.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyPatrol.cs" />
-     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyPatrol2D.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyVision.cs" />
-     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\EnemyVision2D.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\GameWon.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\Invisible.cs" />
+     <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\KillPlayer.cs" />
      <Compile Include="Assets\AI_Assets\EnemyVision\Scripts\VisionTarget.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/CSUFTitan/Documents/tutorials/AI_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -287,14 +283,8 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.17f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/CSUFTitan/Documents/tutorials/AI_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/CSUFTitan/Documents/tutorials/AI_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/CSUFTitan/Documents/tutorials/AI_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/CSUFTitan/Documents/tutorials/AI_Project/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

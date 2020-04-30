@@ -47,10 +47,11 @@ Used github for version control.
 * I would like to acknowledge Unity tutorials and its asset store for the texture and artwork used in the Game 
 * Inspiration from Unity AI assets
 
-#Game Snapshot
+
+## Game Snapshot
 https://user-images.githubusercontent.com/60246830/80645352-d3c8e880-8a1f-11ea-817f-864fc1f51f77.png
 
-Scripts
+## Code Scripts
 Path : AI_Assets\EnemyVision\Scripts
 
 Path : AI_Assets\EnemyVision\Scripts

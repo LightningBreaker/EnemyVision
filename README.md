@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/60246830/80645352-d3c8e880-8a1f-11ea-8
 ## Code Scripts
 Path : AI_Assets\EnemyVision\Scripts
 
-Path : AI_Assets\EnemyVision\Scripts
+
 • GameManager – Manages communication with different components of the game.
 
 • Invisible – This script manages the visibility of the game won symbol. It enables the green tick when the player reaches the goal point and end the game.

@@ -18,16 +18,19 @@ AI_Project\Assets\AI_Assets\EnemyVision\Demo\Scenes\Stealth3D
 For building the project correctly, Unity version 2018.4.17f1 is required
 
 ### Executing Game
-> Execute AI_Project.exe
-> Select appropriate resolution and windowing
-> Click Play
+Execute AI_Project.exe
+Select appropriate resolution and windowing
+Click Play
 
 ## Deployment and Build
 > This game can be deployed as a desktop and mobile application using Unity build creator
 
 - Go to Unity > File > Build Settings
+
 - Add open scene
+
 - Choose the build type (Android, Windows, Linux)
+
 - Click on build
 
 ## Contributing

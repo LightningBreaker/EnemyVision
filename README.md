@@ -32,7 +32,7 @@ For building the project correctly, Unity version 2018.4.17f1 is required
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please contact gunjangupta592@gmail.com for details on code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -55,13 +55,23 @@ Path : AI_Assets\EnemyVision\Scripts
 
 Path : AI_Assets\EnemyVision\Scripts
 • GameManager – Manages communication with different components of the game.
+
 • Invisible – This script manages the visibility of the game won symbol. It enables the green tick when the player reaches the goal point and end the game.
+
 • GameWon – Handles the winning of the game by displaying the tick image and restart when the goal is achieved
+
 • KillPlayer – Handles the collision of enemy with the player. If this happens, the game gets over.
+
 • Enemy - Basic enemy script that manages character movement and rotation. The 3D version is also compatible with Unity’s navmesh pathfinding.
+
 • EnemyPatrol – This script will enable the enemy to move along a specific path. Patrol points can be set to select the path where the enemy can move.
+
 • EnemyFollow – This script will enable the enemy to follow the target player.
+
 • EnemyLOS - It creates an enemy vision display (red cone) and looks for the player (VisionTarget). It will swap from the action EnemyPatrol to EnemyFollower when a target is detected. The enemy vision range and vision angle can be adjusted. A vision mask can be used to choose which layers affect the vision.
+
 • EnemyVision - This must be attached to the enemy vision (red cone) instead of the enemy itself. EnemyLOS will spawn an EnemyVision cone for each enemy at the start of a scene. These scripts will change the shape of the visual display based on obstacles in the scene. To help with optimization and frame rate, you can change the number of points that will create the cone (precision) and the refresh rate.
+
 • VisionTarget – Script to the player object that is needed for EnemyLOS to detect as a target. When this object is seen, EnemyLOS will change from EnemyPatrol to EnemyFollow.
+
 • EnemyDemo - This script is specific to the demo scene; it just handles animations and events. 
